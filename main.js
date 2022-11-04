@@ -24,7 +24,7 @@ function createCard(date, day, games) {
 //
 function MA() {
   document.querySelector("#cards").innerHTML =
-    createCard("20/11", "DOMINGO", createGame("Qatar", "13:00", "ecuador")) +
+    createCard("20/11", "DOMINGO", createGame("qatar", "13:00", "ecuador")) +
     createCard(
       "21/11",
       "segunda",
@@ -33,14 +33,14 @@ function MA() {
     createCard(
       "25/11",
       "sexta",
-      createGame("Qatar", "10:00", "senegal") +
+      createGame("qatar", "10:00", "senegal") +
         createGame("netherlands", "13:00", "ecuador")
     ) +
     createCard(
       "25/11",
       "sexta",
       createGame("ecuador", "12:00", "senegal") +
-        createGame("netherlands", "12:00", "Qatar")
+        createGame("netherlands", "12:00", "qatar")
     )
 }
 function MB() {
@@ -49,19 +49,19 @@ function MB() {
       "21/11",
       "SEGUNDA",
       createGame("england", "13:00", "iran") +
-        createGame("USA", "13:00", "wales")
+        createGame("usa", "13:00", "wales")
     ) +
     createCard(
       "25/11",
       "segunda",
       createGame("wales", "07:00", "iran") +
-        createGame("USA", "16:00", "england")
+        createGame("usa", "16:00", "england")
     ) +
     createCard(
       "29/11",
       "segunda",
       createGame("wales", "07:00", "england") +
-        createGame("USA", "16:00", "iran")
+        createGame("usa", "16:00", "iran")
     )
 }
 function MC() {
